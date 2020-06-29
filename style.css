@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: rgb(228, 228, 228);
+}
+.container{
+	background-image: url('photo/png.png');
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.heading{
+	text-align: center;
+	margin: 0px 0px 15px 0px;
+	background: #006e8c;
+	color: black;
+}
+.heading h1{
+	font-size: 35px;
+}
+.heading p{
+	margin-top: 8px;
+	font-size: 14px;
+
+}
+.currencyInput{
+	display: flex;
+	flex-direction: column;
+	margin: 15px 0px;
+	width: 90%;
+	margin: 0 auto;
+	
+
+}
+#taka, #euro, #dollar, #indianRs, #lankaRs{
+	margin: 0 auto;
+	margin-top: 40px;
+	border: none;
+	padding: 20px 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	width: 400px;
+	box-shadow: 0px 1px 5px rgb(97,97,97);
+
+}
+#taka{
+	background: #196F3D;
+
+}
+#euro{
+	background: #922B21;
+
+}
+#dollar{
+	background: #17202A;
+
+}
+#indianRs{
+	background: #FF5733;
+
+}
+#lankaRs{
+	background: #800080;
+
+}
+footer{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
